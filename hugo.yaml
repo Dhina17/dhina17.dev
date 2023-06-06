@@ -1,0 +1,399 @@
+baseURL: https://dhina17.dev/
+languageCode: en-us
+title: Dhina17 - Android Developer
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: https://dhina17.hashnode.dev
+      weight: 1
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Dhina17 - Android Developer"
+  description: Android Developer
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Dhina17" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Dhina17."
+    subtitle: "I build things for Android"
+    content: "Expertise in AOSP, Android Native Apps and Linux Kernel"
+    image: /images/hero.png
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: false
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Dhina17
+        - icon: fab fa-twitter
+          url: https://twitter.com/dhina17l
+        - icon: fab fa-linkedin-in
+          url: "https://linkedin.com/in/dhina17"
+      # customIcons:
+      #   - icon: fab fa-linkedin
+      #     url: "https://linkedin.com/in/dhina17"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      I am a passionate and self-taught Android Developer who has good experience in AOSP, Native Android Apps (Java/Kotlin), Android for Embedded, Android in IoT, and Linux Kernel. I am more inclined to open-source which leads me to contribute few open-source projects. Sometimes I work in automation, scripting, and bots for myself.
+
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "AOSP"
+        - "Kotlin/Java"
+        - "Git/Gerrit"
+        - "C/C++"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Android Developer"
+        company: "Freelance"
+        date: "Aug 2021 - present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: false
+        content: "
+        <b>Nikhal Board:</b>
+        <ul>
+            <li>Worked on a custom Android board</li>
+            <li>Wrote an accessibility service to handle infrared remote functionalities</li>
+            <li>Handled buzzer sound control</li>
+            <li>Provided technical support for the client</li>
+            <li>**Link:** [<u>LinkedIn Post</u>](https://www.linkedin.com/posts/sankar-r-021a7030_android-pcba-raspberrypi-activity-7070432630424432641-9rVR?utm_source=share&utm_medium=member_desktop)
+        </ul>
+        \n\n
+        <b>OtoClick:</b>
+        <ul>
+            <li>Single-handedly built a native Android app to automate the actions using an accessibility service API<li>
+            <li>Worked on recording gestures, executing gestures, timed execution, screen recording, screenshot functionality<li>
+            <li>Developed features like community for sharing automation, editing the automation</li>  
+            <li>Worked with native canvas API, Matrix, Custom Views, Exoplayer, YoutubeAPI, Drive API.
+            <li>**Link:** (Not yet released)</li>
+        </ul>
+        \n\n
+        <b>Gowri Transport:</b>
+        <ul>
+           <li>Created an Android app to track their company transport vehicles trips and services which includes loads, driver info, costs and all.</li>
+           <li>Worked on features like generating and sharing the reports and bills in PDF format.</li>
+           <li>Worked with Google Sheets API.</li>
+           <li>**Link:** Internal use.</li>
+        </ul>
+        "
+
+      - job: "Device Maintainer and Contributor"
+        company: "LineageOS"
+        companyUrl: "https://lineageos.org"
+        date: "May 2020 - present"
+        info:
+           enable: false
+        content: |
+           - Bringing up and maintaining sources and maintaining for:
+                - Redmi 7 (Android 10, 11, 12)
+                - Moto SM6225 family - Moto g32, g42, g52 (Android 13)
+           - Contributed to the platform bug fixes.
+
+      - job: "Android Security"
+        company: "NoName"
+        date: "NDA - NDA"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: false
+        content: |
+          - Bring up a custom ROM along with a device based on their requirements
+          - Android ART research
+          - Made a Python tool to patch OAT files of the apps
+          - Worked with KGDB 
+          - Taking sessions on AOSP and device sources for all teams.
+          - Some other confidential works.
+
+      - job: "Embedded Android Development Intern"
+        company: "Augrade"
+        companyUrl: "https://www.augrade.com"
+        date: "July 2021 - Mar 2022"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+          - Worked with AOSP master for DragonBoard 410c 
+          - Developed BLE / Wifi Direct apps
+          - Interfaced sensors, displays to the board with linux kernel
+          - Developed Android Accessibility App for custom Navigation
+          - Created a simple Camera app using CameraX
+          - Well documented and explained my works.
+
+      - job: "Android Development Intern"
+        company: "Breakitivity"
+        date: "Sept 2021 - Nov 2021"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+          - Implemented core features of the app 
+          - Worked with Android UsageStats API
+          - Worked with Android Services and Overlays
+          - Worked in the backend using Express.js
+          - Organized and lead the team
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Bachelor of Engineering in Computer Science"
+        school:
+          name: "Government College of Engineering, Salem"
+          url: "https://gcesalem.edu.in"
+        date: "2019 - 2023"
+        GPA: "8.5 out of 10"
+    
+      - title: "Higher Secondary School"
+        school:
+          name: "Government Higher Secondary School, R. Pattanam"
+          url: "https://example.org"
+        date: "2012 - 2019"
+        GPA: "90% out of 100%"
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "Testimonials"
+    # title: "Custom Name"
+    items:
+      - title: Rohan Agarwal, OtoClick
+        content: “If you need something done in Android, Dhina is the person for that. His code quality, work ethics, android skills are second to none. He is a one-man army and will never ever give you a chance to complain. I hope I get the chance to work with him again.”
+      - title: Sankar, Nikhal Board
+        content: “Great person to work. Understands the problem statement clearly. Brings workaround immediately if anything got blocked. Down to earth person. Hope he has bright future ahead with his good attitude.”
+      - title: Rajith Shetty , Software Lead at Augrade
+        content: “Dhina proved himself to be a dependable employee and a hard worker with solid problem solving and technical skills. I was always impressed by his ability to complete the work assigned to him on time. He would be an asset to have on any team. Overall, he is a talented, hard-working and dedicated individual” 
+      - title: Aditya Bhandari , Product Manager  at Breakitivity
+        content: “Dhina worked as an Android Developer Intern and was responsible for leading the development part of our product on Breakitivity.When it comes to solving complex problems in android, Dhina has shown his creativity on different occasions. In addition to his technical knowledge, he is well disposed towards his team members and is always ready to take up challenges and lead.\nDhina's skills as an android developer made him a valuable asset of our team, and I give him my full recommendation.”
+
+  # projects
+  projects:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: LineageOS for Redmi 7
+        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Image Converter
+        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://django-converter.herokuapp.com
+        badges:
+          - "Django"
+          - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/converter
+
+      - title: Hugo Profile V2
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: I'm always happy to hear from you! Whether you have a question about my work, want to discuss a project, or just want to say hi, I'm here for you.
+    email: dhinalogu@gmail.com
+    btnName: Mail me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "https://dhina17.hashnode.dev"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/Dhina17
+      linkedin: https://linkedin.com/in/dhina17
+      twitter: https://twitter.com/dhina17l
+      # instagram: https://instagram.com/dhina17l
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
