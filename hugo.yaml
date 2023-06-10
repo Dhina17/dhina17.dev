@@ -206,7 +206,7 @@ params:
         info:
            enable: false
         content: |
-           - Bringing up and maintaining sources and maintaining for:
+           - Bringing up and maintaining sources for:
                 - Redmi 7 (Android 10, 11, 12)
                 - Moto SM6225 family - Moto g32, g42, g52 (Android 13)
            - Contributed to the platform bug fixes.
