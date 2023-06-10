@@ -205,6 +205,10 @@ params:
         date: "May 2020 - present"
         info:
            enable: false
+        featuredLink:
+          enable: true
+          name: "Contributions"
+          url: "https://review.lineageos.org/q/owner:dhinalogu@gmail.com"
         content: |
            - Bringing up and maintaining sources for:
                 - Redmi 7 (Android 10, 11, 12)
