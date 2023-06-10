@@ -134,6 +134,8 @@ params:
           url: https://twitter.com/dhina17l
         - icon: fab fa-linkedin-in
           url: "https://linkedin.com/in/dhina17"
+        - icon: fab fa-telegram
+          url: https://t.me/Dhina_17
       # customIcons:
       #   - icon: fab fa-linkedin
       #     url: "https://linkedin.com/in/dhina17"
