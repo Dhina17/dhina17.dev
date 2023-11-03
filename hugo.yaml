@@ -214,6 +214,21 @@ params:
                 - Redmi 7 (Android 10, 11, 12)
                 - Moto SM6225 family - Moto g32, g42, g52 (Android 13)
            - Contributed to the platform bug fixes.
+      
+      - job: "Android Framework Developer"
+        company: "LMODroid"
+        companyUrl: "https://libremobileos.com/lmodroid"
+        date: "Jun 2023 - present"
+        info:
+           enable: false
+        featuredLink:
+          enable: true
+          name: "Contributions"
+          url: "https://gerrit.libremobileos.com/q/owner:dhinalogu%2540gmail.com"
+        content: |
+           - Bring up new features to the OS.
+           - Contributed to the platform bug fixes.
+           - CTS/GTS fixes.
 
       - job: "Android Security"
         company: "NoName"
