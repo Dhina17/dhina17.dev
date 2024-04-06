@@ -162,6 +162,38 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Project Core Member"
+        company: "LibreMobileOS Foundation"
+        companyUrl: "https://libremobileos.com"
+        date: "Jun 2023 - present"
+        info:
+           enable: false
+        featuredLink:
+          enable: true
+          name: "Contributions"
+          url: "https://gerrit.libremobileos.com/q/owner:dhina17%2540libremobileos.com"
+        content: |
+           - LMODroid, an Android based mobile OS.
+           - Bringing up new features to LMODroid.
+           - Maintaining the LMODroid platform sources.
+           - CTS/GTS fixes.
+
+      - job: "Device Maintainer and Contributor"
+        company: "LineageOS"
+        companyUrl: "https://lineageos.org"
+        date: "May 2020 - present"
+        info:
+           enable: false
+        featuredLink:
+          enable: true
+          name: "Contributions"
+          url: "https://review.lineageos.org/q/owner:dhinalogu@gmail.com"
+        content: |
+           - Bringing up and maintaining sources for:
+                - Redmi 7 (Android 10, 11, 12)
+                - Moto SM6225 family - Moto g32, g42, g52 (Android 13)
+           - Contributed to the platform bug fixes.
+
       - job: "Android Developer"
         company: "Freelance"
         date: "Aug 2021 - present"
@@ -198,37 +230,6 @@ params:
            <li>**Link:** Internal use.</li>
         </ul>
         "
-
-      - job: "Device Maintainer and Contributor"
-        company: "LineageOS"
-        companyUrl: "https://lineageos.org"
-        date: "May 2020 - present"
-        info:
-           enable: false
-        featuredLink:
-          enable: true
-          name: "Contributions"
-          url: "https://review.lineageos.org/q/owner:dhinalogu@gmail.com"
-        content: |
-           - Bringing up and maintaining sources for:
-                - Redmi 7 (Android 10, 11, 12)
-                - Moto SM6225 family - Moto g32, g42, g52 (Android 13)
-           - Contributed to the platform bug fixes.
-      
-      - job: "Android Framework Developer"
-        company: "LMODroid"
-        companyUrl: "https://libremobileos.com/lmodroid"
-        date: "Jun 2023 - present"
-        info:
-           enable: false
-        featuredLink:
-          enable: true
-          name: "Contributions"
-          url: "https://gerrit.libremobileos.com/q/owner:dhinalogu%2540gmail.com"
-        content: |
-           - Bring up new features to the OS.
-           - Contributed to the platform bug fixes.
-           - CTS/GTS fixes.
 
       - job: "Android Security"
         company: "NoName"
